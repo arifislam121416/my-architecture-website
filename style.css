@@ -138,6 +138,34 @@ background: rgba(255, 144, 14, 1);
     margin-top: 50px;
     font-size: 66px;
 font-weight:700;}
+.Facts-title{
+font-size: 45px;
+font-weight: 700;
+margin-top: 130px;
+}
+.Facts-p{
+    font-size: 16px;
+font-weight: 400;
+}
+.fact-card{
+    
+}
+.card{
+    display: flex;
+    text-align: center;
+    margin: 60px;
+}
+.card1{
+    margin-left: 30px;
+    padding: 40px;
+    margin-right:90px;
+    width: 190px;
+height: 241.83px;
+box-sizing: border-box;
+border: 1px solid rgba(255, 144, 14, 1);
+border-radius: 8px;
+}
+
 
 @media screen and (max-width:576px) {
    .hero-container{

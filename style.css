@@ -13,7 +13,6 @@
   font-style: normal;
 }
 
- 
  .button-ber{
     width: 11.25rem;
     height: 4rem;
@@ -35,17 +34,119 @@
 /* hero section  */
  .hero-section{
     text-align: center;
-    margin-top: 8rem;
+    /* margin-top: 8rem; */
  }
  .hero-title{
-    color: var(--Dark 01, rgba(19, 19, 19, 1));
+display:flex;
+justify-content: center;
+color: rgba(19, 19, 19, 1);
 font-family: Work Sans;
-font-style: Bold;
 font-size: 64px;
-font-weight: 700;
-line-height: 75px;
-letter-spacing: 0%;
 text-align: center;
+align-items: center;
 height: 226px;
+/* width: 865px;  */
+}
 
- }
+/* banner img */
+.banner-img{
+    width: 100%;
+    margin-top: 40px;
+}
+.hero-paragraph{
+    /* width: 862px; */
+    height: 52px;
+    color:rgba(114, 114, 114, 1);
+}
+/* Our-Features */
+
+.Our-Features-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:76px;
+    margin-top: 45px;
+}
+.Our-Features-image{
+    display: grid;
+grid-template-columns: repeat(2,1fr);
+gap:10px;
+margin-top: 45px;
+}
+.Our-Features{
+margin-top: 287px;
+}
+.Our-Features{
+   width: 468px;
+   height: 106px;
+}
+.Quick-list{
+    font-size: 45px;
+    font-weight: 500;
+}
+.of-Our{
+    font-size: 45px;
+    font-weight: 700;
+}
+.Features{
+    font-size: 45px;
+    font-weight: 700;
+    color:rgba(255, 144, 14, 1);
+}
+.our-paragraph{
+font-size: 16px;
+font-weight: 400;
+margin-bottom: 24px;
+}
+
+.love-enjoy{
+    display: flex;
+    margin-top: 70px;
+    background: rgba(255, 255, 255, 1);
+}
+.love{
+    gap: 100px;
+    margin-bottom: 60px;
+}
+.enjoy{
+    margin-left: 50px;
+}
+.love-title{
+    margin-bottom: 30px;
+    font-size: 45px;
+    font-weight: 700;
+}
+.title{
+    margin-bottom: 30px;
+    gap:20px;
+    rgba(19, 19, 19, 1);
+    font-size: 20px;
+font-weight: 600;
+}
+.enjoy img{
+width: 100%;
+}
+.button{
+    margin-left: -100px;
+    margin-top: -100px;
+    color: beige;
+    width: 342px;
+    height: 200px;
+    border-radius: 8px;
+background: rgba(255, 144, 14, 1);
+}
+.Year {
+    margin-top: 50px;
+    font-size: 66px;
+font-weight:700;}
+
+@media screen and (max-width:576px) {
+   .hero-container{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+   }
+   .display{
+   display: grid;
+   text-align: center;
+   justify-content: center;
+   }
+}

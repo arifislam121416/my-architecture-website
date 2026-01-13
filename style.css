@@ -1,1 +1,51 @@
+/* share elemen */
+ .display{
+    align-items: center;
+    text-align: center;
+    /* margin: 0 auto; */
+    display:flex;
+    justify-content: space-between;
+ }
+ .work-fonts{
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
 
+ 
+ .button-ber{
+    width: 11.25rem;
+    height: 4rem;
+    background-color: rgba(255, 144, 14, 1);
+ }
+ .hero-container{
+    max-width: 90rem;
+    margin: 0 auto;
+ }
+
+ /* navber */
+ .nav-angcor-tag{
+    list-style: none;
+    gap:50px;
+ }
+ .nav-angcor-tag a{
+    text-decoration: none;
+ }
+/* hero section  */
+ .hero-section{
+    text-align: center;
+    margin-top: 8rem;
+ }
+ .hero-title{
+    color: var(--Dark 01, rgba(19, 19, 19, 1));
+font-family: Work Sans;
+font-style: Bold;
+font-size: 64px;
+font-weight: 700;
+line-height: 75px;
+letter-spacing: 0%;
+text-align: center;
+height: 226px;
+
+ }
